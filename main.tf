@@ -246,15 +246,15 @@ resource "awscc_bedrock_data_source" "data_source" {
       bucket_arn = aws_s3_bucket.s3_kb.arn
     }
   }
-  vector_ingestion_configuration = {
-    chunking_configuration = {
-      chunking_strategy = "FIXED_SIZE"
-      fixed_size_chunking_configuration = {
-        max_tokens         = 200
-        overlap_percentage = 20
-      }
-    }
-  }
+  # vector_ingestion_configuration = {
+  #   chunking_configuration = {
+  #     chunking_strategy = "FIXED_SIZE"
+  #     fixed_size_chunking_configuration = {
+  #       max_tokens         = 200
+  #       overlap_percentage = 20
+  #     }
+  #   }
+  # }
 }
 
 
