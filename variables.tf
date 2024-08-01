@@ -46,35 +46,3 @@ variable "metadata_field" {
   type    = string
   default = "AMAZON_BEDROCK_METADATA"
 }
-
-
-# variable "agent_model_id" {
-#   description = "The ID of the foundational model used by the agent."
-#   type        = string
-#   default     = "anthropic.claude-3-haiku-20240307-v1:0"
-# }
-
-# variable "agent_name" {
-#   description = "The agent name."
-#   type        = string
-#   default     = "InsuranceAssistant"
-# }
-
-# variable "agent_desc" {
-#   description = "The agent description."
-#   type        = string
-#   default     = "An assisant that provides Insurance rate information."
-# }
-
-# variable "action_group_name" {
-#   description = "The action group name."
-#   type        = string
-#   default     = "InsuranceAPI"
-# }
-
-# variable "action_group_desc" {
-#   description = "The action group description."
-#   type        = string
-#   default     = "The currency exchange rates API."
-# }
-
