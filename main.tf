@@ -96,8 +96,7 @@ resource "aws_opensearchserverless_access_policy" "access_policy" {
       ],
       Principal = [
         aws_iam_role.bedrock_kb_role.arn,
-        data.aws_caller_identity.current.arn,
-        data.aws_iam_user.user.arn
+        data.aws_caller_identity.current.arn
       ]
     }
   ])

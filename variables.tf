@@ -6,13 +6,13 @@ variable "region" {
 variable "kb_s3_bucket_name_prefix" {
   description = "The name prefix of the S3 bucket for the data source of the knowledge base."
   type        = string
-  default     = "kb-insurance"
+  default     = "kb-insuranc-collection-store"
 }
 
 variable "kb_oss_collection_name" {
   description = "The name of the OSS collection for the knowledge base."
   type        = string
-  default     = "kb-insurance"
+  default     = "kb-insurance-collection"
 }
 
 variable "kb_oss_vector_index_name" {
